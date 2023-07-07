@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find any of the alternatives using RegExp</title>
+</head>
+<body>
+    <p id="example"></p>
+
+    <script>
+        let text = "My pant is of blue color but shirt is white. So my favorite colors are white and blue.";
+        document.getElementById("example").innerHTML = text.match(/red|white/g); 
+
+    </script>
+</body>
+</html>
