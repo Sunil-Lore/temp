@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>find any digits using RegExp</title>
+</head>
+<body>
+    <p id="example"></p>
+
+    <script>
+        let text = "I purchased 4 kg tomato at Rs 25 per kg. Total cost was Rs.100";
+        document.getElementById("example").innerHTML = text.match(/[0-3]/g); 
+    </script>
+</body>
+</html>
