@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test method in RegExp in short way</title>
+</head>
+<body>
+    <p id="example1"></p>
+    <p id="example2"></p>
+
+    <script>
+        let text = "I am Sunil.";
+        document.getElementById("example1").innerHTML = (/am/gi).test(text); 
+        document.getElementById("example2").innerHTML = (/my/gi).test(text);
+
+    </script>
+</body>
+</html>
